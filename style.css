@@ -1,0 +1,394 @@
+.wholebody {
+    background-color: rgb(245, 250, 245);
+    padding-bottom: 60px;
+}
+.top .fa:hover {
+    color: white;
+    opacity: 0.6;
+    background-color: blue;
+    text-decoration-color:#005dab;
+}
+.fa {
+    /* background: #3B5998; */
+    background-color:#005dab;
+    color: white;}  
+.fa {
+    padding: 10px;
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration-line: none; 
+}      
+.top{
+    background-color:#005dab;
+    padding: 5px 50px 0px 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+} 
+.top .icons ul{
+    /* background-color: lawngreen; */
+    display: inline-block;
+    /* list-style-type: none; */
+    padding: 5px 0px 0px 0px;
+    /* padding: 0px 40px 0px 40px; */
+}
+.top .icons li{
+    display: inline-block;
+    width: 35px;
+}
+
+.top .p{
+    /* background-color: lightcoral; */
+    /* display: inline-block; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    padding: 10px 0px 0px 0px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.button{
+     /* display: inline-block; */
+    padding: 5px 0px 0px 0px
+;
+}
+.button .bu{
+    height: 30px;
+    font-size: 12px;
+    color: rgb(8, 100, 100);
+    border:1px solid rgb(8, 100, 100);
+    cursor: pointer;   
+}
+/* 2nd container */
+.second {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+.saylani-logo{
+    /* display: inline-block; */
+    margin: 5px 0px 0px 0px;
+}
+.pages *{
+    display: inline-block;
+    /* padding: 10px auto 10px auto; */
+    /* background-color: blue; */
+    cursor: pointer;
+    text-decoration: none;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* color: black; */
+    font-size: 13px;
+    border:none;
+    font-weight: 500;
+    /* margin: 10px 5px 10px 5px; */
+    
+}
+
+.pages .nav:hover{
+    color: white;
+    text-decoration: none;
+    background-color:blue;
+    border-radius: 100px;
+}
+
+.pages .home{
+    border-radius: 100px;
+    background-color: blue;
+    text-align: center;
+    padding: 5px 10px 7px 10px;
+    color: white;
+    text-decoration: none;
+}
+.pages .nav{
+    /* height: 30px;; */
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right:10px;
+    /* border: 1px solid transparent; */
+    border-radius: 100px;
+    color: black;
+    /* background-color: crimson; */
+    /* margin-top: 8px; */
+}
+.pages {
+    padding-top:17px ;
+    /* float: right; */
+     /* background-color: mediumaquamarine; */
+}
+.second{
+    background-color: rgb(245, 250, 245);
+     padding: 0px 100px 5px 100px; 
+}
+
+#span{
+    background-color:#005dab ;
+    height: 25px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin: 10px 60px; */
+    overflow: hidden;
+    padding: 3px 0px 2px 0px;
+    font-size: 14px;
+    color: white;
+}
+/* container three */
+
+.intro{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color:#005dab;
+    /* font-size: 35px; */
+    text-align: center;
+    font-weight: 550;
+    padding-top: 60px;
+    
+}
+.duction{
+    color: rgb(3, 105, 3);
+}
+.favi{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.third {
+    /* background-color: blue;  */
+    width: 840px;
+    /* display: block; */
+    line-height: 26px;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    font-size: 16px;
+    text-align: justify;
+}
+@media only screen and (max-width: 840px){
+    .third{
+        width: 96%;
+    }
+}
+
+
+.fourth {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0px 30px 70px 30px;
+}
+.fourth div{
+    padding: 60px 30px 00px 30px;
+    /* background-color: greenyellow; */
+    /* padding: 50px 20px 50px 20px; */
+    /* display: inline-block; */
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+.number {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+.food {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 16px;
+}
+.de {
+    padding-bottom: 20px;
+}
+.monthly {
+    color:greenyellow;
+    font-size: 18px;
+}
+.fifth div{
+    margin-top: 30px;
+    height: 170px;
+    width: 350px;
+    text-align: center;
+    /* border:1px solid greenyellow; */
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    /* margin: 50px 20px 50px 20px; */
+    /* display: inline-block; */
+    background-color: white;
+    padding: 30px 0px 30px 0px;
+    color: blue;
+    /* -moz-box-shadow: 0 0 10px #777777; */
+    /* -webkit-box-shadow: 0 0 10px #777777; */
+    box-shadow: 0 0 15px #cfcfcf;
+}
+@media only screen and (max-width:800px) {
+    .fifth div{
+        width:95%;
+    }
+}    
+
+
+.fifth {
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    /* background-color: indigo; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:1150px) {
+    .fifth{
+        width:100%;
+    }
+}
+.fifth img{
+    padding-bottom: 20px;
+}
+.mission {
+    width: 700px;
+    font-size: 15px;
+
+}
+@media only screen and(max-width:800px){
+    .mission {
+        width: 96%;
+    }
+}
+.sixth { 
+    /* background-color: yellow; */
+    /* width: 685px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin-top: 20px; */
+}
+.sixth div{
+    height: 70px;
+    width: 330px;
+    border: 1px solid rgb(207, 205, 205);
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+    font-weight: bold;
+    background-color:rgb(245, 250, 245) ;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.sixth img{
+    margin: 15px 15px 15px 15px;
+    width: 30px;
+}
+.upcoming-events{
+    /* background-color: violet; */
+    display: inline;
+    /* border: 1px solid black; */
+    /* float: right; */
+    margin-top: 30px;
+    width: 330px;
+    height: 300px;
+    overflow: hidden;
+    padding-right: 60px;
+    color: grey;
+    font-size: 14px ;
+}
+.six {
+    /* background-color: tomato; */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width:1150px){
+    .six{
+        width:96%
+    }
+}
+
+.six h5{
+    color: blue;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.gallery{
+    margin-top: 30px;
+    text-align: center;
+}
+/* contact container */
+.contact {
+     /* width: 1100px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 80px 0px 0px 0px;
+    padding: 70px 0px 70px 0px;
+    background-color: black;
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    color: white;
+}
+.contact .one .fa {
+    color: green;
+    background-color: transparent;
+    font-size: 16px;
+}
+.contact .one {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* display: inline-block; */
+    width: 350px;
+    /* line-height: 16px; */
+    font-size: 14px;
+    /* padding: 100px 0px 100px 60px; */
+    /* border: 1px solid red; */
+    /* flex: 2; */
+    width: 380px;
+}
+.two  {
+    /* width: px; */
+    /* padding: 80px 0px 0px 0px; */
+    /* border: 1px solid green; */
+    /* flex: 1; */
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    flex: 3;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact .fa:hover {
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+}
+.contact .fa {
+    border-radius: 50px;
+}
+
+.two-2 a{
+    margin: 0px 3px 0px 3px;
+}
+
+.two-1, .two-2 {
+    /* padding-top: 20px; */
+    width: 350px;
+    /* border: 1px solid green; */
+    height: 50px;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+} 
+
+.contact-body {
+    background-color: rgb(22, 21, 21);
+}
