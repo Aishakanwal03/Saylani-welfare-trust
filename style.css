@@ -4,9 +4,11 @@
 }
 .top .fa:hover {
     color: white;
-    opacity: 0.6;
-    background-color: blue;
-    text-decoration-color:#005dab;
+    /* opacity: 0.6; */
+    background-color: rgb(95, 95, 255);
+    text-decoration:none;
+    transition: 1s;
+    border-radius: 5px;
 }
 .fa {
     /* background: #3B5998; */
@@ -77,7 +79,7 @@
     background-color: transparent;
     color: black;
 }
-.nav ul .fa {
+#nav ul .fa {
     float: right;
     font-size: 15px;
 }
@@ -85,7 +87,7 @@
     color: white;
 } 
 .home {
-    display: inline-block;
+    /* display: inline-block; */
     border-radius: 30px;
     color: white;
     display:block;
@@ -102,37 +104,37 @@
     margin:0;
     padding:0;
     /* text-align:center; */;
-    }
-    #nav li {
+}
+#nav li {
     display:block;
     position:relative;
     float:left;
-    background:white; /* menu background color */
-    }
-    .nav-a {
-        border-radius: 30px;
-        background-color: rgb(245, 250, 245);
-    }
-    #nav .nav {
-        /* text-align: center; */
-        margin-top: 15px;
-        border-radius: 20px;
-        font-size: 14px;
-        /* background-color: brown; */
-        font-weight: 500;
-        /* color:black ; */
-    }
-    #nav li .nav-a{
-        display:block;
-        text-decoration:none;
-        padding:0;
-        line-height:35px; /* this is the hieght of the menu items */
-        padding-left: 10px; /*this is the width of the menu items */
-        padding-right: 10px;
-        /* border-radius: 20px; */
-        color:black;
-    }
-    #nav li li a {
+}    
+#nav ul li {    
+    background:white; /*sublists menu background color */
+}
+.nav >li, .nav-a {
+    border-radius: 30px;
+}
+
+#nav .nav {
+    /* text-align: center; */
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+#nav li .nav-a{
+    display:block;
+    text-decoration:none;
+    padding:0;
+    line-height:35px; /* this is the hieght of the menu items */
+    padding-left: 10px; /*this is the width of the menu items */
+    padding-right: 10px;
+    /* border-radius: 20px; */
+    color:black;
+}
+#nav li li a {
     display:block;
     padding:0;
     text-decoration:none;
@@ -141,38 +143,50 @@
     width: 200px; /*this is the width of the menu items */
     line-height:35px; /* this is the hieght of the menu items */
     color: grey; /* list item font color */
-    }
-    /* #nav li li a {font-size:80%;} smaller font size for sub menu items */
-    #nav li a:hover {
-        /* border-radius: 0px; */
-        background:#005dab;
-        color: white;
-        text-decoration: none;
-    } 
-    #nav ul li a:hover {
-        padding-left: 20px;
+    font-size:12px;
+}
+#nav li:hover {
+    background:#005dab;
+}
+#nav li:hover >a {
+    color: white;
+}
+#nav li:hover >a .fa {
+    color: white;
+}
+/* #nav li li a {font-size:80%;} smaller font size for sub menu items */
+#nav li a:hover {
+    /* border-radius: 0px; */
+    background:#005dab;
+    color: white;
+    text-decoration: none;
+} 
+    
+#nav ul a:hover {
+    padding-left: 20px;
+    transition: 0.5s;
         /* padding-top: -5px; */
-    }
-    #nav ul {
-        font-size: 12px;
-        font-weight: 500;
+}
+#nav ul {
+    font-size: 12px;
+    font-weight: 500;
     position:absolute;
     padding:0;
     left:0;
     display:none; /* hides sublists */
-    }
-    #nav li:hover ul ul {display:none;} /* hides sub-sublists */
-    #nav li:hover ul {display:block; /* shows sublist on hover */
-        padding-top: 16px;
-      
-    }    
-    #nav li li:hover ul ul {display: none;}
-    #nav li li li:hover ul{display: block;}
-    #nav li li:hover ul {
+}
+#nav li:hover ul ul {display:none;} /* hides sub-sublists */
+#nav li:hover ul {
+    display:block; /* shows sublist on hover */
+    padding-top: 16px;  
+}    
+#nav li li:hover ul ul {display: none;}
+#nav li li li:hover ul{display: block;}
+#nav li li:hover ul {
     display:block; /* shows sub-sublist on hover */
-     margin-left:200px;/* this should be the same width as the parent list item */
+    margin-left:200px;/* this should be the same width as the parent list item */
     margin-top:-51px;   /*aligns top of sub menu with top of list item */
-    }
+}
 
 
 #span{
@@ -181,7 +195,6 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    /* margin: 10px 60px; */
     overflow: hidden;
     padding: 3px 0px 2px 0px;
     font-size: 14px;
@@ -192,7 +205,6 @@
 .intro{
     font-family:  Georgia, Times, 'Times New Roman', serif;
     color:#005dab;
-    /* font-size: 35px; */
     text-align: center;
     font-weight: 550;
     padding-top: 60px;
@@ -207,10 +219,9 @@
     margin-right: auto;
 }
 
+
 .third {
-    /* background-color: blue;  */
     width: 840px;
-    /* display: block; */
     line-height: 26px;
     color: grey;
     margin-left: auto;
@@ -235,9 +246,6 @@
 }
 .fourth div{
     padding: 60px 30px 00px 30px;
-    /* background-color: greenyellow; */
-    /* padding: 50px 20px 50px 20px; */
-    /* display: inline-block; */
     width: 300px;
     text-align: center;
     color: white;
@@ -266,11 +274,8 @@
     height: 170px;
     width: 350px;
     text-align: center;
-    /* border:1px solid greenyellow; */
     font-family:  Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    /* margin: 50px 20px 50px 20px; */
-    /* display: inline-block; */
     background-color: white;
     padding: 30px 0px 30px 0px;
     color: blue;
@@ -290,7 +295,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    /* background-color: indigo; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -314,13 +318,10 @@
         width: 96%;
     }
 }
-.sixth { 
-    /* background-color: yellow; */
-    /* width: 685px; */
+.sixth {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    /* margin-top: 20px; */
 }
 .sixth div{
     height: 70px;
@@ -339,10 +340,7 @@
     width: 30px;
 }
 .upcoming-events{
-    /* background-color: violet; */
     display: inline;
-    /* border: 1px solid black; */
-    /* float: right; */
     margin-top: 30px;
     width: 330px;
     height: 300px;
@@ -352,7 +350,6 @@
     font-size: 14px ;
 }
 .six {
-    /* background-color: tomato; */
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -376,17 +373,15 @@
     margin-top: 30px;
     text-align: center;
 }
+
 /* contact container */
+.contact-block {
+    background-color: rgb(33, 33, 44);
+}
 .contact {
-     /* width: 1100px;
-    margin-left: auto;
-    margin-right: auto; */
     margin: 80px 0px 0px 0px;
     padding: 70px 0px 70px 0px;
-    background-color: black;
     display: flex;
-    /* flex-direction: row; */
-    /* justify-content: space-around; */
     flex-wrap: wrap;
     color: white;
 }
@@ -397,29 +392,20 @@
 }
 .contact .one {
     margin-top: 30px;
-    margin-bottom: 30px;
-    /* display: inline-block; */
+    margin-bottom: 30px;/
     width: 350px;
-    /* line-height: 16px; */
     font-size: 14px;
-    /* padding: 100px 0px 100px 60px; */
-    /* border: 1px solid red; */
-    /* flex: 2; */
     width: 380px;
+    color: rgb(180, 166, 166);
 }
-.two  {
-    /* width: px; */
-    /* padding: 80px 0px 0px 0px; */
-    /* border: 1px solid green; */
-    /* flex: 1; */
+.contact .two  {
     display: flex;
-    /* justify-content: space-around; */
     flex-wrap: wrap;
     flex: 3;
     font-family:  Georgia, Times, 'Times New Roman', serif;
 }
 
-.contact .fa:hover {
+.contact .two .fa:hover {
     border-radius: 50px;
     color: white;
     text-decoration: none;
@@ -433,9 +419,7 @@
 }
 
 .two-1, .two-2 {
-    /* padding-top: 20px; */
-    width: 350px;
-    /* border: 1px solid green; */
+    width: 300px;
     height: 50px;
     font-family:  Georgia, Times, 'Times New Roman', serif;
 } 
@@ -449,4 +433,32 @@
     top: 0;
     width: 100%;
     border: 1px solid rgb(241, 236, 236);
-  }
+}
+
+.top-button {
+    position:fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgba(87, 86, 86, 0.2);
+    padding: 0px 0px 0px 0px;
+}
+.fa-angle-up {
+    padding-top: 3px;
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    color: white;
+    background-color:transparent;
+}
+.fa-angle-up:hover {
+    color: white;
+    text-decoration: none;
+    background-color:rgba(87, 86, 86, 0.8) ;
+}
+
+.bottom {
+    color: white;
+    background-color: rgb(70, 70, 248);
+    line-height: 40px;
+    font-size: 12px;
+}
